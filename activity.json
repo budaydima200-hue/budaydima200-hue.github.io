@@ -1,0 +1,82 @@
+{
+ "updatedAt": "2026-11-15T12:04:00+01:00",
+ "timezone": "Europe/Bratislava",
+ "events": [
+  {
+   "id": "git-7bd9ae6",
+   "ts": "2026-11-15T09:58:26+01:00",
+   "bot": "mayor",
+   "building": "builder-workshop",
+   "action": "Збудував 3D-модель міста v1.6.0 (коміт 7bd9ae6)",
+   "durationMin": 5,
+   "source": "mayor"
+  },
+  {
+   "id": "git-476178b",
+   "ts": "2026-11-15T10:19:51+01:00",
+   "bot": "mayor",
+   "building": "builder-workshop",
+   "action": "Збудував генплан v2.0.0 «Острів-гавань» (коміт 476178b)",
+   "durationMin": 5,
+   "source": "mayor"
+  },
+  {
+   "id": "git-9c496bb",
+   "ts": "2026-11-15T11:15:45+01:00",
+   "bot": "mayor",
+   "building": "builder-workshop",
+   "action": "Деталізував 3D-модель до v2.1.0 (коміт 9c496bb)",
+   "durationMin": 5,
+   "source": "mayor"
+  },
+  {
+   "id": "build-v2.2.0",
+   "ts": "2026-11-15T11:48:00+01:00",
+   "bot": "mayor",
+   "building": "builder-workshop",
+   "action": "Будує живий шар 3D v2.2.0: аватари ботів, стрічка подій, Школа",
+   "durationMin": 30,
+   "source": "mayor"
+  },
+  {
+   "id": "ev-20261115-115237-6863f8ef",
+   "ts": "2026-11-15T11:52:37+01:00",
+   "bot": null,
+   "building": "customs",
+   "action": "перевірила файл — знахідок немає",
+   "durationMin": 2,
+   "source": "tool",
+   "tool": "YARA-X + ClamAV"
+  },
+  {
+   "id": "ev-20261115-115238-b73256f1",
+   "ts": "2026-11-15T11:52:38+01:00",
+   "bot": null,
+   "building": "stats-office",
+   "action": "зібрала реальні метрики міста",
+   "durationMin": 1,
+   "source": "tool",
+   "tool": "collect"
+  },
+  {
+   "id": "ev-20261115-115243-9cad8c9d",
+   "ts": "2026-11-15T11:52:43+01:00",
+   "bot": null,
+   "building": "firehouse",
+   "action": "зробила бекап міста (знімок 5f90b782)",
+   "durationMin": 3,
+   "source": "tool",
+   "tool": "restic"
+  },
+  {
+   "id": "ev-20261115-120400-48260626",
+   "ts": "2026-11-15T12:04:00+01:00",
+   "bot": null,
+   "building": "git-archive",
+   "action": "перевірила зміни v2.2.0 перед комітом — секретів не знайдено",
+   "durationMin": 2,
+   "source": "tool",
+   "tool": "gitleaks"
+  }
+ ]
+}
