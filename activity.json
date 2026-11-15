@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T12:04:00+01:00",
+ "updatedAt": "2026-11-15T12:07:47+01:00",
  "timezone": "Europe/Bratislava",
  "events": [
   {
@@ -26,6 +26,15 @@
    "bot": "mayor",
    "building": "builder-workshop",
    "action": "Деталізував 3D-модель до v2.1.0 (коміт 9c496bb)",
+   "durationMin": 5,
+   "source": "mayor"
+  },
+  {
+   "id": "ev-20261115-114100-0b959aa3",
+   "ts": "2026-11-15T11:41:00+01:00",
+   "bot": "mayor",
+   "building": "railway-station",
+   "action": "Запустив розклад: ранковий звіт, нічний бекап, тижнева статистика",
    "durationMin": 5,
    "source": "mayor"
   },
